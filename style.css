@@ -1,0 +1,119 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    text-align: flex;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.button{
+    background-color:#A0BFE0;
+    background: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 4px 10px;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btnStop{
+    color: #7895CB;
+    position: relative;
+    font-size: 25px;
+    font-family: 'Source Code Pro',impact, monospace;
+    top: -10px;
+    left: 20px;
+    border-radius: 50%;
+
+}
+ 
+.btnLeft{
+    position: relative;
+    right: -145px;
+    border-radius: 50%;
+}
+
+.btnRight{
+    position: relative;
+    left: 275px;
+    border-radius: 50%;
+}
+
+.btnUp{
+    position: relative;
+    bottom: 120px;
+    right: 100px;
+    border-radius: 50%;
+}
+
+.btnDown{
+    position: relative;
+    top: 120px;
+    right:240px;
+    border-radius: 50%;
+}
+
+.btnLeft, .btnRight{
+    color: #7895CB;
+    text-align: left;
+}
+
+.btnUp, .btnDown{
+    color: #fff;
+}
+.btnUp:hover, .btnDown:hover{
+color: #7895CB;
+}
+
+.btnLeft:hover, .btnRight:hover {
+    color: #7895CB;
+
+}
+
+.button::before{
+    content:"";
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 0%;
+    background:#7895CB;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.btnUp::before{
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.btnDown::before{
+    bottom:0;
+    border-radius:  50% 50% 0 0;
+}
+
+.btnUp::before, .btnDown::before{
+    height: 180%;
+ }
+
+.btnUp:hover::before, .btnDown:hover::before{
+    height: 0%;
+ }
+
+
+ .buttonI{
+    font-size: 64px; 
+    text-align: center;
+ }
+
+ .button:active {
+    background:#4A55A2 ;
+ }
