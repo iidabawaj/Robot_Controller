@@ -52,7 +52,7 @@ This PHP code connects to a MySQL database, runs a SELECT query to retrieve the 
 
 
 ## style.css Code Explanation 
-This is a CSS stylesheet that defines the styles for the buttons in the HTML form. Here's a summary of the styles applied:
+This is a CSS stylesheet that defines the styles for the buttons in the HTML form. A summary of the styles applied:
 
 * The <body> element sets margin, padding, and flex properties to center the form vertically and horizontally.
   
@@ -60,12 +60,12 @@ This is a CSS stylesheet that defines the styles for the buttons in the HTML for
   
 * The button sets the background color, padding, font size, font family, cursor, margin, transition, position, and overflow properties for all buttons.
   
-* btnStop, .btnLeft, .btnRight, .btnUp, and .btnDown - set the position and border-radius properties for each button.
+* btnStop, .btnLeft, .btnRight, .btnUp, and .btnDown sets the position and border-radius properties for each button.
   
-* btnLeft and .btnRight - set the text color and text alignment for the left and right buttons.
+* btnLeft and .btnRight sets the text color and text alignment for the left and right buttons.
   
-* btnUp and .btnDown - set the text color for the up and down buttons, and define a hover effect for those buttons using the ::before pseudo-element.
+* btnUp and .btnDown sets the text color for the up and down buttons, and define a hover effect for those buttons using the::before pseudo-element.
   
 * buttonI sets the font size and text alignment for the button icons.
   
-* button:active sets the background color for a button when it is clicked.
+* button: active sets the background color for a button when it is clicked.
